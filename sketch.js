@@ -3,7 +3,7 @@ let alfaData, bravoData, charlieData;
 let drones = [];
 // array utile per assegnare ogni colore diverso ad ogni drone
 let colors = [];
-let minZ, maxZ, minX, maxX, minY, maxY;
+let minZ, maxZ;
 /* specificazione di passi per drone in modo da aver un'iterazione corretta -
 studio dei primi 100 passi di ogni drone */
 let stepsPerDrone = 100;
