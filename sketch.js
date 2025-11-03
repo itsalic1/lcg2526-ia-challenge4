@@ -16,9 +16,9 @@ let spacing = 20;
 
 // caricamento dei dataset ridotti alle prime 100 righe
 function preload() {
-  alfaData = loadTable("assets/drone_alfa_reduced.csv", "csv", "header");
-  bravoData = loadTable("assets/drone_bravo_reduced.csv", "csv", "header");
-  charlieData = loadTable("assets/drone_charlie_reduced.csv", "csv", "header");
+  alfaData = loadTable("drone_alfa_reduced.csv", "csv", "header");
+  bravoData = loadTable("drone_bravo_reduced.csv", "csv", "header");
+  charlieData = loadTable("drone_charlie_reduced.csv", "csv", "header");
 }
 
 function setup() {
