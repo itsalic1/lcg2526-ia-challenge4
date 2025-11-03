@@ -83,9 +83,9 @@ function draw() {
   textAlign(CENTER);
   textSize(24);
   fill(0);
-  text("Monitoraggio altitudine droni", width / 2, 40);
+  text("Monitoraggio dell'altitudine dei droni", width / 2, 40);
   textSize(16);
-  text("Visualizzazione dei primi 100 passi per ciascun drone", width / 2, 70);
+  text("Visualizzazione dei primi 100 passi di ciascun drone", width / 2, 70);
 
   /* per disegnare grafico altitudine - 
   scorre tutti i droni, calcola posizione orizzontale del box */
@@ -197,9 +197,9 @@ function drawDisplacementChart(x, y, w, h) {
   textAlign(CENTER);
   textSize(24);
   fill(0);
-  text("Spostamento totale nei primi 100 passi", w / 2, -70);
+  text("Spostamento totale dei droni", w / 2, -70);
   textSize(16);
-  text("Confronto tra i droni sulla distanza percorsa", w / 2, -45);
+  text("Confronto sulla distanza percorsa da ciascun drone, relativamente ai primi 100 passi", w / 2, -45);
 
   noStroke();
   fill(200, 200, 200, 100);
